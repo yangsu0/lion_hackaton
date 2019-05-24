@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Brush+Script|Pacifico|Stylish&display=swap" rel="stylesheet">
+
+</head>
+<style>
+body{
+        background-image:url(https://t1.daumcdn.net/cfile/tistory/124AE9244C4526C23F);
+        background-size:cover;
+        background-repeat:no-repeat;
+}
+</style>
+<body>
+<div style="font-family:Do Hyeon; font-size:30px;">
+<div style=" border-radius: 10px;font-size:60px;width:30%;  background-color:#FEFDFD; text-align:center;">
+{{taro.name}}님의 운세
+</div>
+<div style=" border-radius: 10px;margin-top:15%; color:#FEFDFD;font-size:35px; width:35%; border: 0.5rem outset white;">
+{{taro.content}}<br>
+</div>
+<div style="color:#FEFDFD; font-size:100px">
+{{taro.num}}점
+</div>
+
+<div style=" position:absolute; 
+    top:70%; left:53%;
+    margin-top:-100px; margin-left:-100px; 
+    width:200px; height:200px; ">
+<a style="color:#FEFDFD" href="{% url 'rank' %}">등수 보러 가깅</a></div>
+</div>
+</body>
+</html>
+
+
+
+
